@@ -1,0 +1,16 @@
+name: Hello GitHub Actions
+
+on: [push]
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Installation
+        run: npm install
+      
+      - name: Run
+        run: npm run build
+
+      - name: Commencer
+        run: npm start
