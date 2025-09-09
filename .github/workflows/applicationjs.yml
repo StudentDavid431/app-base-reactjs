@@ -25,7 +25,7 @@ jobs:
         run: npm run build
 
       - name: Start
-        run: nohup npm start
+        run: nohup npm start && sleep 1000
 
       - name: Test
         run: npm test
