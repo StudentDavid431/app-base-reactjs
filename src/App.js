@@ -19,7 +19,7 @@ function App() {
         </a>
 
         <div>
-          Daniel S & Phenixel
+          Learn React
         </div>
       </header>
     </div>

@@ -24,8 +24,5 @@ jobs:
       - name: Run
         run: npm run build
 
-      - name: Start
-        run: nohup npm start
-
-      - name: Test
+      - name: Commencer
         run: npm test
