@@ -25,4 +25,4 @@ jobs:
         run: npm run build
 
       - name: Commencer
-        run: npm start
+        run: npm test
