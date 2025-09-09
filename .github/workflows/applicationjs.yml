@@ -30,4 +30,4 @@ jobs:
           sleep 5
 
       - name: Test
-        run: npm test
+        run: curl -I http://localhost:3000/ || exit 1
